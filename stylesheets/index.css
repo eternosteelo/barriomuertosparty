@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#header-img {
+  /* background-image: url(../img/hero_img_crop.png); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/hero_img_2.jpg);
+  min-height: 100%;
+}
+
+.time-wrapper {
+  @apply flex flex-col text-center grow shrink basis-0 md:w-0 mb-1;
+}
+
+.time-text {
+  @apply text-5xl md:text-8xl text-amber-400;
+}
+
+.time-description {
+  @apply text-lg md:text-xl uppercase tracking-wide;
+}
+
+.tw-sm-hidden {
+  @apply hidden;
+}
+
+.tw-dropdown-menu {
+  @apply hidden;
+}
+
+.tw-dropdown-menu li {
+  @apply mb-2;
+}
+
+#desktop-nav > a,
+.tw-dropdown-menu li > a {
+  @apply hover:text-amber-400;
+}
+
+.show {
+  @apply block;
+}
+
+.section-heading {
+  @apply font-tinos text-3xl text-amber-400 font-semibold;
+}
+
+#about-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/about-bg.png);
+  min-height: 100%;
+}
+
+#vendors-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../img/paleta-bg.jpg);
+  min-height: 100%;
+}
+
+@screen md {
+  #about-container {
+    background-image: url(../img/about-bg.png);
+    min-height: 100%;
+  }
+
+  .tw-sm-hidden {
+    @apply block;
+  }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barrio Muertos Party | Nov 5, 2022</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Tinos:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link href="/dist/output.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="bg-cover bg-no-repeat bg-right md:bg-center mx-auto" id="header-img">
+
+    <nav class="pt-8">
+      <div class="w-full lg:w-11/12 mx-auto px-1">
+
+        <div class="flex justify-end py-4" id="global-nav">
+          <div class="flex flex-row text-white font-tinos text-xl font-bold space-x-12" id="desktop-nav">
+            <a class="tw-sm-hidden" href="index.html">HOME</a>
+            <a class="tw-sm-hidden" href="about.html">ABOUT</a>
+            <a class="tw-sm-hidden" href="vendors.html">VENDORS</a>
+          </div>
+
+          <div class="flex items-center justify-center">
+            <div class="relative inline-block text-left tw-dropdown md:hidden" id="global-dropdown-wrapper">
+              <span class="flex cursor-pointer text-white">
+                <img src="https://icongr.am/fontawesome/bars.svg?size=24&color=ffffff" alt="Mobile Menu"
+                  class="menu-bar">
+              </span>
+
+              <div class="absolute right-0 w-40 mt-2 origin-top-right bg-black outline-none tw-dropdown-menu">
+                <ul class=" text-white uppercase font-tinos text-center text-lg p-8">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="vendors.html">VENDORS</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <img src="/img/bmp_logo.PNG" alt="" class="mx-auto w-full md:w-2/5" id="bmp-logo">
+
+    <section class="mt-16 mx-auto text-center text-white font-montserrat font-bold ">
+      <h2 class="text-3xl md:text-5xl">NOVEMBER 5, 2022</h2>
+      <h4 class="text-xl md:text-3xl">@ ALAMO BEER COMPANY</h4>
+      <h4 class="text-xl md:text-3xl">5pm - 12pm</h4>
+    </section>
+
+    <section class="mx-auto mt-24 w-11/12 text-white font-tinos">
+      <div id="countdown" class="flex flex-col md:flex-row justify-between w-full md:w-4/6 mx-auto">
+        <div class="time-wrapper">
+          <p id="days" class="time-text"></p>
+          <p class="time-description">Days</p>
+        </div>
+
+        <div class="time-wrapper">
+          <p id="hours" class="time-text"></p>
+          <p class="time-description">Hours</p>
+        </div>
+
+        <div class="time-wrapper">
+          <p id="minutes" class="time-text"></p>
+          <p class="time-description">Minutes</p>
+        </div>
+
+        <div class="time-wrapper">
+          <p id="seconds" class="time-text"></p>
+          <p class="time-description">SECONDS</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/clock.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
