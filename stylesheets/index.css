@@ -60,7 +60,7 @@ body {
 }
 
 #vendors-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../img/paleta-bg.jpg);
   min-height: 100%;
 }
