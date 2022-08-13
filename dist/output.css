@@ -950,6 +950,10 @@ ol > li {
     margin-top: 5rem;
   }
 
+  .lg\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .lg\:w-11\/12 {
     width: 91.666667%;
   }
