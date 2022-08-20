@@ -65,8 +65,48 @@ body {
   min-height: 100%;
 }
 
+#sponsorship-container {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    94deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(41, 6, 17, 1) 99%
+  );
+  min-height: 100%;
+}
+
+#sponsors-container {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    94deg,
+    rgba(0, 0, 0, 1) 51%,
+    rgba(45, 45, 45, 1) 99%
+  );
+  min-height: 100%;
+}
+
 ol > li {
   @apply ml-16 mb-4;
+}
+
+ul > li {
+  @apply ml-4 mb-4;
+}
+
+.sponsor-headings {
+  @apply font-tinos font-bold text-center text-2xl uppercase;
+}
+
+.sponsor-cost {
+  @apply font-tinos text-amber-600 font-bold text-center text-3xl uppercase mb-8;
+}
+
+.sponsor-card {
+  @apply flex-col min-h-full p-6 w-full lg:w-1/4 bg-gray-200 rounded-lg border border-gray-200 shadow-md;
+}
+
+.logo-wrapper {
+  @apply bg-white p-6 rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 h-52 w-52 flex flex-col mx-auto lg:mx-0 justify-center;
 }
 
 @screen md {
