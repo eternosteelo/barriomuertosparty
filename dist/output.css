@@ -625,20 +625,12 @@ video {
   width: 100%;
 }
 
-.w-40 {
-  width: 10rem;
+.w-auto {
+  width: auto;
 }
 
 .w-11\/12 {
   width: 91.666667%;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .flex-grow {
