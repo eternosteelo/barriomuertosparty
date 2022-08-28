@@ -609,6 +609,10 @@ video {
   margin-bottom: 4rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -748,6 +752,10 @@ video {
 
 .pb-16 {
   padding-bottom: 4rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
 .text-left {
