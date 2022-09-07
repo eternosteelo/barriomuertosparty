@@ -605,12 +605,12 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
 .mb-24 {
   margin-bottom: 6rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .inline-block {
@@ -750,12 +750,12 @@ video {
   padding-top: 2rem;
 }
 
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
 .pb-24 {
   padding-bottom: 6rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .text-left {
