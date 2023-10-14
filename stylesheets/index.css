@@ -10,12 +10,27 @@ body {
 }
 
 #header-img {
-  /* background-image: url(../img/hero_img_crop.png); */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/hero_img_2.jpg);
-  min-height: 100%;
+  background: linear-gradient(
+      to right,
+      rgba(99, 102, 241, 0.8),
+      rgba(147, 51, 234, 0.8),
+      rgba(236, 72, 153, 0.8)
+    ),
+    url(../img/bridge-bg-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+#lowrider-body,
+#sponsorship-container {
+  background: linear-gradient(
+    to right,
+    rgba(99, 102, 241, 0.8),
+    rgba(147, 51, 234, 0.8),
+    rgba(236, 72, 153, 0.8)
+  );
+}
 .time-wrapper {
   @apply flex flex-col text-center grow shrink basis-0 md:w-0 mb-1;
 }
@@ -60,19 +75,17 @@ body {
 }
 
 #vendors-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+  background: linear-gradient(
+      to right,
+      rgba(99, 102, 241, 0.9),
+      rgba(147, 51, 234, 0.9),
+      rgba(236, 72, 153, 0.9)
+    ),
     url(../img/paleta-bg.jpg);
   min-height: 100%;
-}
-
-#sponsorship-container {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    94deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(41, 6, 17, 1) 99%
-  );
-  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #sponsors-container {
@@ -98,7 +111,7 @@ ul > li {
 }
 
 .sponsor-cost {
-  @apply font-tinos text-amber-600 font-bold text-center text-3xl uppercase mb-8;
+  @apply font-tinos text-indigo-500 font-bold text-center text-3xl uppercase mb-8;
 }
 
 .sponsor-card {
@@ -121,5 +134,18 @@ ul > li {
 
   .tw-sm-hidden {
     @apply block;
+  }
+
+  #header-img {
+    background: linear-gradient(
+        to right,
+        rgba(99, 102, 241, 0.8),
+        rgba(147, 51, 234, 0.8),
+        rgba(236, 72, 153, 0.8)
+      ),
+      url(../img/bridge-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }

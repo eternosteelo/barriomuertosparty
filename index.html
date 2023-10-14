@@ -20,7 +20,7 @@
   <meta name="title" content="Barrio Muertos Party | Nov 4, 2023 @ Alamo Beer | 5pm-12am">
   <meta name="description" content="We are excited to announce the 5th annual Barrio Muertos Cultural Celebration, honoring our Dia de Muertos traditions with an urban twist.
 ">
-  <meta property="og:image" content="https://www.barriomuertos.com/img/hero_img.jpg" />
+  <meta property="og:image" content="https://www.barriomuertos.com/img/2023-bm-meta-img.png" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -28,7 +28,7 @@
   <meta property="og:title" content="Barrio Muertos Party | Nov 4, 2023 @ Alamo Beer | 5pm-12am">
   <meta property="og:description" content="We are excited to announce the 5th annual Barrio Muertos Cultural Celebration, honoring our Dia de Muertos traditions with an urban twist.
 ">
-  <meta property="og:image" content="https://www.barriomuertos.com/img/hero_img.jpg">
+  <meta property="og:image" content="https://www.barriomuertos.com/img/2023-bm-meta-img.png">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
@@ -36,7 +36,7 @@
   <meta property="twitter:title" content="Barrio Muertos Party | Nov 4, 2023 @ Alamo Beer | 5pm-12am">
   <meta property="twitter:description" content="We are excited to announce the 5th annual Barrio Muertos Cultural Celebration, honoring our Dia de Muertos traditions with an urban twist.
 ">
-  <meta property="twitter:image" content="https://www.barriomuertos.com/img/hero_img.jpg">
+  <meta property="twitter:image" content="https://www.barriomuertos.com/img/2023-bm-meta-img.png">
 
 
   <title>Barrio Muertos Party | Nov 4, 2023</title>
@@ -44,26 +44,25 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Tinos:wght@400;700&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Tinos:wght@400;700&family=Playfair+Display+SC&family=Rye&family=Playfair:opsz,wght@5..1200,300;5..1200,700&display=swap"
     rel="stylesheet">
   <link href="/dist/output.css" rel="stylesheet">
 
 </head>
 
 <body>
-  <div class="bg-cover bg-no-repeat bg-right md:bg-center mx-auto" id="header-img">
+  <div class="h-3/4 lg:min-h-full" id="header-img">
 
-    <nav class="pt-8">
+    <nav class="pt-8 pb-32">
       <div class="w-full lg:w-11/12 mx-auto px-1">
 
         <div class="flex justify-end py-4" id="global-nav">
           <div class="flex flex-row text-white font-tinos text-xl font-bold space-x-12" id="desktop-nav">
             <a class="tw-sm-hidden" href="index.html">HOME</a>
-            <a class="tw-sm-hidden" href="about.html">ABOUT</a>
-            <a class="tw-sm-hidden" href="vendors.html">VENDORS</a>
+            <!-- <a class="tw-sm-hidden" href="vendors.html">VENDORS</a> -->
             <a class="tw-sm-hidden" href="lowriders.html">LOWRIDERS</a>
             <a class="tw-sm-hidden" href="sponsorship.html">SPONSORSHIP INFO</a>
-            <a class="tw-sm-hidden" href="sponsors.html">SPONSORS</a>
             <a class="tw-sm-hidden" href="mailto:barriomuertos@gmail.com?subject=Barrio Muertos Party">CONTACT US</a>
           </div>
 
@@ -74,14 +73,12 @@
                   class="menu-bar">
               </span>
 
-              <div class="absolute right-0 w-auto mt-2 origin-top-right bg-black outline-none tw-dropdown-menu">
+              <div class="absolute right-0 w-auto mt-2 origin-top-right bg-indigo-500 outline-none tw-dropdown-menu">
                 <ul class=" text-white uppercase font-tinos text-center text-lg p-8">
                   <li><a href="index.html">HOME</a></li>
-                  <li><a href="about.html">ABOUT</a></li>
-                  <li><a href="vendors.html">VENDORS</a></li>
+                  <!-- <li><a href="vendors.html">VENDORS</a></li> -->
                   <li><a href="lowriders.html">LOWRIDERS</a></li>
                   <li><a href="sponsorship.html">SPONSORSHIP INFO</a>
-                  <li><a href="sponsors.html">SPONSORS</a>
                   <li><a href="mailto:barriomuertos@gmail.com?subject=Barrio Muertos Party">CONTACT
                       US</a></li>
                   </li>
@@ -93,41 +90,253 @@
       </div>
     </nav>
 
-
-    <img src="/img/bmp_logo.PNG" alt="" class="mx-auto w-full md:w-2/5" id="bmp-logo">
-
-    <section class="mt-16 mx-auto text-center text-white font-montserrat font-bold ">
-      <h2 class="text-3xl md:text-5xl">NOVEMBER 4, 2023</h2>
-      <h4 class="text-xl md:text-3xl">@ ALAMO BEER COMPANY</h4>
-      <h4 class="text-xl md:text-3xl">5pm - 12am</h4>
-    </section>
-
-    <section class="mx-auto mt-24 w-11/12 text-white font-tinos">
-      <div id="countdown" class="flex flex-col md:flex-row justify-between w-full md:w-4/6 mx-auto">
-        <div class="time-wrapper">
-          <p id="days" class="time-text"></p>
-          <p class="time-description">Days</p>
-        </div>
-
-        <div class="time-wrapper">
-          <p id="hours" class="time-text"></p>
-          <p class="time-description">Hours</p>
-        </div>
-
-        <div class="time-wrapper">
-          <p id="minutes" class="time-text"></p>
-          <p class="time-description">Minutes</p>
-        </div>
-
-        <div class="time-wrapper">
-          <p id="seconds" class="time-text"></p>
-          <p class="time-description">SECONDS</p>
+    <section>
+      <div>
+        <img src="/img/2023-bm-text-centered.png" alt="" class="mx-auto w-full md:w-1/2" id="bmp-logo">
+        <div class="mt-16 mx-auto text-center text-amber-300 font-young font-bold">
+          <h2 class=" text-5xl md:text-6xl">NOVEMBER 4, 2023</h2>
+          <h4 class="text-4xl md:text-5xl">@ ALAMO BEER COMPANY</h4>
+          <h4 class="text-4xl md:text-5xl">5pm - 12am</h4>
         </div>
       </div>
     </section>
+
   </div>
 
-  <script src="js/clock.js"></script>
+
+  <section class="bg-indigo-800 pt-0 pb-8 lg:pt-16">
+    <div class="flex flex-col lg:flex-row container mx-auto py-16">
+      <div class="w-full lg:w-1/2">
+        <iframe class="w-full aspect-video	lg:h-full" src="https://www.youtube.com/embed/6IFyZWX43QU"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+
+      <div class="text-xl text-amber-300 font-montserrat w-full p-8 lg:pt-0 lg:w-1/2 lg:pl-8">
+        <p class="mb-4">
+          We are excited to announce the 5th annual Barrio Muertos Cultural Celebration, honoring our Dia de
+          Muertos traditions
+          with an urban twist.
+        </p>
+        <p class="mb-4">
+          Come and enjoy a memorable evening where our ancestors visit us and experience all we have to offer.
+          There will be
+          altares displayed in the trunks of lowrider cars, an art exhibit by some of the most talented
+          creatives in the scene,
+          photo ops, DJs spinning the best of 90's hip hop on vinyl & digital format, local vendors, photo booths, food
+          vendors, an Aztec
+          ceremony blessing our event, and live mural & graffiti painting..
+
+        </p>
+        <p>Experience a FREE and vibrant celebration for all ages on November 4, 2023, at Alamo Beer from 5 pm -
+          12am. Check out our 2022 recap!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- <img src="img/papel-sm.svg" alt=""> -->
+
+  <section class="py-8 lg:pt-16 lg:pb-32 bg-gradient-to-r from-indigo-200">
+    <div class="container mx-auto font-montserrat ">
+      <p class="text-4xl lg:text-6xl font-bold font-young capitalize text-indigo-600 text-center">EVENT INFORMATION</p>
+
+      <!-- component -->
+      <!-- 
+          FAQ - Frequently Asked Questions TailwindCSS Component
+          with <details> and <summary> tag with custom [open] animation.
+          Created by Surjith S M (@surjithctly)
+          See more components: https://web3components.dev 
+      -->
+      <div class="max-w-screen-xl mx-auto px-5 min-h-sceen">
+        <div class="grid divide-y divide-neutral-500 max-w-xl mx-auto mt-8">
+          <div class="py-5">
+            <details class="group">
+              <summary class="flex justify-between items-center font-semibold cursor-pointer list-none">
+                <span> General Information</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                Presented by <a class="text-sky-400 hover:text-sky-700 font-semibold"
+                  href="https://www.instagram.com/eternosteelo" target="_blank">Eterno
+                  Steelo</a> clothing brand, established in 2013, by David Espinoza aka Davy. Davy has built a
+                loyal
+                following from years of networking through the brand and curating events that bring together the
+                elements of the
+                barrio/hispanic culture. Our brand represents familia, street Culture & the hustle of our people,
+                which is highlighted
+                through our apparel and events.
+              </p>
+            </details>
+          </div>
+          <div class="py-5">
+            <details class="group">
+              <summary class="flex justify-between items-center font-semibold cursor-pointer list-none">
+                <span> Location </span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                <span>Alamo Beer Company</span>
+                <br>
+                <span>202 Lamar St <br> San Antonio, TX 78202</span>
+                <iframe class="mt-4"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3474.958902674342!2d-98.48006622449101!3d29.42999754742138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cf5fc479e6ce5%3A0xc612d95a015b0ae7!2sAlamo%20Beer%20Company!5e0!3m2!1sen!2sus!4v1684253551494!5m2!1sen!2sus"
+                  style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </p>
+            </details>
+          </div>
+
+          <div class="py-5">
+            <details class="group">
+              <summary class="flex justify-between items-center font-semibold cursor-pointer list-none">
+                <span> Parking </span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                There will be limited onsite parking available. Parking is FREE and is first come first serve. We
+                encourage carpooling, rideshare, and public transportation. There will be additional parking avialable
+                outside of the venue.
+              </p>
+            </details>
+          </div>
+
+          <div class="py-5">
+            <details class="group">
+              <summary class="flex justify-between items-center font-semibold cursor-pointer list-none">
+                <span> Outside Alcohol </span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                Outside alcohol is not allowed.
+              </p>
+            </details>
+          </div>
+
+          <div class="py-5">
+            <details class="group">
+              <summary class="flex justify-between items-center font-semibold cursor-pointer list-none">
+                <span> Interested Sponsors </span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                Please visit the <a href="sponsorship.html" target="_blank"
+                  class="text-sky-400 hover:text-sky-700 font-semibold">sponsorship info
+                  tab</a>
+                for more information.
+              </p>
+            </details>
+          </div>
+
+          <div class="py-5">
+            <details class="group">
+              <summary class="flex justify-between items-center font-semibold cursor-pointer list-none">
+                <span> Interested Vendors </span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                Interested vendors may apply <a href="https://forms.gle/uJDZwmwjT8r9KpmA9" target="_blank"
+                  class="text-sky-400 hover:text-sky-700 font-semibold">here.</a>
+                <br>
+                <span class="italic">Please note, as of October 2023, there are limited spots available.</span>
+              </p>
+            </details>
+          </div>
+          <div class="py-5">
+            <details class="group">
+              <summary class="flex justify-between items-center font-semibold cursor-pointer list-none">
+                <span> Interested Lowriders </span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                Please visit the <a href="lowriders.html" target="_blank"
+                  class="text-sky-400 hover:text-sky-700 font-semibold">lowrider tab</a>
+                for more information.
+              </p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="font-young bg-gradient-to-r from-indigo-500 mx-auto p-4 ">
+    <div id="title-sponsor" class="mt-16">
+      <div class="w-full mx-auto">
+        <p class="text-4xl lg:text-6xl font-bold capitalize text-indigo-700 text-center mb-8">TITLE SPONSOR</p>
+        <div class="w-full lg:w-96 mx-auto">
+          <img src="img/sponsor-logos/2024/logo_horizontal.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div id="corporate-sponsor" class="mt-16">
+      <div class="w-full lg:w-1/4 mx-auto">
+        <p class="text-4xl lg:text-6xl font-bold capitalize text-indigo-700 text-center mb-8">CORPORATE SPONSOR</p>
+        <div class="w-full lg:w-96 mx-auto">
+          <img src="img/sponsor-logos/2024/alamo-candy.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- <div id="gold-sponsor" class="mt-16">
+      <div class="w-full lg:w-1/4 mx-auto">
+        <p class="text-5xl font-bold capitalize text-indigo-700 text-center mb-8">GOLD SPONSORS</p>
+        <img src="img/sponsor-logos/2024/alamo-candy.svg" alt="">
+      </div>
+    </div> -->
+  </section>
+
+
+  <footer class="bg-fuchsia-200">
+    <div class="w-full mx-auto p-4 md:py-8">
+      <!-- <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> -->
+      <span class="block text-base text-gray-500 sm:text-center dark:text-gray-400">© 2023 BMP. All Rights
+        Reserved.</span>
+      <span class="block text-base text-gray-500 sm:text-center dark:text-gray-400">
+        Created with ♥️ by <a class="text-indigo-600 hover:text-blue-400" href="https://viviancan.dev"
+          target="_blank">@viviancandev</a>
+        | Artwork by <a class="text-indigo-600 hover:text-blue-400" href="https://instagram.com/shelbycriswell"
+          target="_blank">@shelbycriswell</a> </span>
+    </div>
+  </footer>
+
 
   <script src="js/script.js"></script>
 
