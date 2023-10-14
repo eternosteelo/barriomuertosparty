@@ -667,6 +667,10 @@ video {
   height: 75%;
 }
 
+.min-h-full {
+  min-height: 100%;
+}
+
 .w-auto {
   width: auto;
 }
