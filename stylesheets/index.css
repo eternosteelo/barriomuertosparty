@@ -7,6 +7,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 #header-img {
@@ -96,6 +97,10 @@ body {
     rgba(45, 45, 45, 1) 99%
   );
   min-height: 100%;
+}
+
+.sponsor-img {
+  @apply w-1/4 lg:w-48 mx-auto flex items-center;
 }
 
 ol > li {
