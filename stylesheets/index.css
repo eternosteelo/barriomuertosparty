@@ -11,13 +11,7 @@ body {
 }
 
 #header-img {
-  background: linear-gradient(
-      to right,
-      rgba(99, 102, 241, 0.8),
-      rgba(147, 51, 234, 0.8),
-      rgba(236, 72, 153, 0.8)
-    ),
-    url(../img/bridge-bg-mobile.png);
+  background: url(../img/2024-header-img-2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -78,9 +72,9 @@ body {
 #vendors-container {
   background: linear-gradient(
       to right,
-      rgba(99, 102, 241, 0.9),
-      rgba(147, 51, 234, 0.9),
-      rgba(236, 72, 153, 0.9)
+      rgba(21, 3, 72, 0.9),
+      rgba(71, 49, 129, 0.9),
+      rgba(130, 108, 185, 0.9)
     ),
     url(../img/paleta-bg.jpg);
   min-height: 100%;
@@ -139,18 +133,5 @@ ul > li {
 
   .tw-sm-hidden {
     @apply block;
-  }
-
-  #header-img {
-    background: linear-gradient(
-        to right,
-        rgba(99, 102, 241, 0.8),
-        rgba(147, 51, 234, 0.8),
-        rgba(236, 72, 153, 0.8)
-      ),
-      url(../img/bridge-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
   }
 }
