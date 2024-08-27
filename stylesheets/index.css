@@ -21,9 +21,8 @@ body {
 #sponsorship-container {
   background: linear-gradient(
     to right,
-    rgba(99, 102, 241, 0.8),
-    rgba(147, 51, 234, 0.8),
-    rgba(236, 72, 153, 0.8)
+    rgba(36, 26, 70, 0.8),
+    rgba(117, 84, 225, 0.8)
   );
 }
 .time-wrapper {
